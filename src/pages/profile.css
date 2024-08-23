@@ -1,0 +1,33 @@
+.profileRightTop{
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.profilepic {
+    height: 160px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 2px solid white;
+}
+
+.coverpic {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.profileinfo {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+.topbar {
+  background-color: #3b5998; /* Facebook-like blue */
+  color: white;
+  position: sticky;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  gap: 20px;
+}
+
+.home, .timeline {
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons .MuiSvgIcon-root {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.MuiBadge-root {
+  cursor: pointer;
+}
+
+.avatar {
+  cursor: pointer;
+}
